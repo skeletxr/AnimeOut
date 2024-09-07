@@ -1,0 +1,56 @@
+  <div class="card-container">
+    <div class="card">
+      <img src="/Assets/Images/chainsawman.jpg" alt="Network error">
+      <div class="card-content">
+        <h3>Chainsaw-Man</h3>
+        <p>Chainsaw Man is a much-anticipated anime about a guy who turns into a living chainsaw and hunts devils. As
+          awesome and gnarly as it sounds, that's all there is to it, at least for the first episode. Like a lot of
+          anime
+          openers, this one focuses on world-building and setup.</p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <img src="/Assets/Images/jjk.jpg" alt="Network error">
+      <div class="card-content">
+        <h3>Jujutsu Kaisen</h3>
+        <p>The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers in
+          order to kill a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host. The season was produced by
+          MAPPA and directed by Sunghoo Park</p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <img src="/Assets/Images/monster.jpg" alt="Network error">
+      <div class="card-content">
+        <h3>Monster</h3>
+        <p>The original idea for Monster came from the 1960s American television series The Fugitive, which had a strong
+          impact on Urasawa when he saw it at the age of eight. In the story, a doctor is wrongfully convicted of
+          murder,
+          but escapes and searches for the real killer while on the run from the police.</p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="card">
+      <img src="/Assets/Images/naruto.jpg" alt="Network error">
+      <div class="card-content">
+        <h3>Naruto</h3>
+        <p>Naruto is a ninja-in-training whose wild antics amuse his teammates. But he's completely serious about one
+          thing: becoming the world's greatest ninja! As the battle against the Tailed Beast-targeting Akatsuki rages
+          on,
+          the heroic sibling battle between Sasuke and Itachi eventually concludes..</p>
+        <a href="" class="bttn">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  

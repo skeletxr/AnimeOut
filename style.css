@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.upper {
+    background-image: url(Assets/Images/animebg2.jpg);
+    height: 75vh;
+    position: relative;
+    background-position: centre centre;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+.box {
+    height: 75vh;
+    width: 100%;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 275px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.box-txt {
+    /* font-family: "Martel Sans", sans-serif; */
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    height: calc(100% - 64px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.box-txt> :first-child {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.box-txt :nth-child(2) {
+    text-align: center;               /* not working */
+    display: flex;
+    padding: 11px 10px 10px 10px
+}
+
+.box-txt :nth-child(3) {
+    text-align: center;                 /* not working */
+    gap: 20px;
+}
+
+.line {
+    height: 8px;
+    background-color: rgb(38, 37, 37);
+    position: relative;
+    z-index: 10;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px;
+    position: relative;
+    top: 16px;
+}
+
+.btn {
+    font-family: "Martel Sans", sans-serif;
+    padding: 6px 12px;
+    background-color: rgba(20, 20, 20, 0.7);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px 10px 0px 10px;
+    transition: transform 0.6s ease;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn-red-1 {
+    background-color: rgb(255, 96, 0);
+    color: white;
+    border-style: none;
+}
+
+
+.btn-red {
+    /* font-family: "Martel Sans", sans-serif; */
+    font-family: sans-serif;
+    background-color: rgb(255, 96, 0);;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    border-style: none;
+    padding: 4px 18px;
+    font-weight: bold;
+    /* transition: transform 0.6s ease; */
+}
+.btn-red:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+
+.transbtn {
+    background-color: rgba(20, 20, 20, 0.7);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.box-txt input {
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 18px;
+}
+
+.first{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+}
+
+.mainimg{
+    width: 30vw;
+    position:relative;
+    z-index: 9;
+    left: 320px;
+}
+.gif{
+    width: 338px;
+  right: 81px;
+  position: relative;
+  bottom: 24px;
+}
+/* section.first > div{
+    display: flex;
+    flex-direction: column;
+} */
+section.first > div :first-child{
+   font-family: "Martel Sans", sans-serif;
+   font-size: 48px;
+   font-weight: bolder;
+   margin-bottom: 31px;
+}
+section.first > div :nth-child(2){
+    font-family: "Martel Sans", sans-serif;
+    font-size: 24px;
+}
+.anime-heading1{
+     font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center; 
+}
+.card-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 25px;
+}
+.card{
+    box-sizing: border-box;
+    width: 200px;
+    background-color: rgba(54, 53, 53, 0.371);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(207, 205, 205, 0.471);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+.card:hover{
+    transform: translateY(-20px);
+    
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h3{
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 6px;
+    color: white;
+}
+.card-content p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+}
+.card-button{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -8px;
+}
+
+.card > :first-child{
+    height: 250px;
+}
+.anime-heading1 > :first-child{
+    top: 65px;
+  position: relative;
+  border: 1px solid white;
+  width: 461px;
+  text-align: center;
+}
+
+.price-card-container{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+    gap: 35px;
+}
+
+.price-card-content{
+    box-sizing: border-box;
+    width: 200px;
+    background-color: rgba(54, 53, 53, 0.371);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(207, 205, 205, 0.471);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+    width: 400px; 
+}
+
+.price-card-content h2{
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 21px;
+    color: white;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.price-card-content p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 19px;
+    transition: transform 0.6s ease;
+}
+.price-card-content:hover{
+    transform: scale(1.05);
+}
+
+.price-btn{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+footer{
+    min-height: 38vh;
+}
+.footbox{
+  width: 80vw;
+  display: flex;
+  margin: auto;
+}
+.smbox1{
+    width: 40%;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 58px;
+}
+.smbox1 h2{
+    color: #fff;
+    
+}
+.ptr-btn{
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: none;
+    text-transform: none;
+    background-color: rgb(255, 120, 3);
+    padding: 9px;
+    text-decoration: none;
+}
+
+.support{
+    color: rgb(255, 120, 3);
+  text-decoration: none;
+}
